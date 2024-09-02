@@ -1,5 +1,12 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
+	const oneDay = 24*60*60*1000; // hours in a day * mins in a hour * seconds in a min * mili second in a second
+	const firstDate = new date(dateOne);
+	conts secondDate = new date(dateSecond);
+
+	const diffIntime = secondDate.getTime() - firstDate.getTime()
+	const diffInDay = Math.round(diffIntime/oneDay);
+	return diffInDay;
 };
 
 // Do not change the code below.
