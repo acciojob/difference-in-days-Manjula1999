@@ -1,10 +1,10 @@
-var dateDiffInDays = function (dateOne, dateTwo) {
+let dateDiffInDays = function (dateOne, dateTwo) {
   //   write your code here
-	const oneDay = 24*60*60*1000; // hours in a day * mins in a hour * seconds in a min * mili second in a second
-	const firstDate = new date(dateOne);
-	conts secondDate = new date(dateTwo);
+	const oneDay = 24 * 60 * 60 * 1000; // hours in a day * mins in a hour * seconds in a min * mili second in a second
+	const firstDate = new Date(dateOne);
+	conts secondDate = new Date(dateTwo);
 
-	const diffIntime = secondDate.getTime() - firstDate.getTime()
+	const diffInTime = secondDate.getTime() - firstDate.getTime();
 	const diffInDay = Math.round(diffIntime/oneDay);
 	return diffInDay;
 };
