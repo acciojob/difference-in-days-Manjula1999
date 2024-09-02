@@ -4,9 +4,9 @@ let dateDiffInDays = function (dateOne, dateTwo) {
 	const firstDate = new Date(dateOne);
 	conts secondDate = new Date(dateTwo);
 
-	const diffInTime = secondDate.getTime() - firstDate.getTime();
-	const diffInDay = Math.round(diffInTime / oneDay);
-	return diffInDay;
+	const diffIntime = secondDate.getTime() - firstDate.getTime();
+	const diffInDays = Math.round(diffIntime / oneDay);
+	return diffInDays;
 };
 
 // Do not change the code below.
